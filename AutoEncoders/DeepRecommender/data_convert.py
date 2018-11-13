@@ -118,7 +118,6 @@ def main(args):
   print("STATS FOR ALL INPUT DATA")
   print_stats(all_data)
 
-  # Netflix full
   (nf_train, nf_valid, nf_test) = create_data_timesplit(all_data,
                                                                 "1999-12-01",
                                                                 "2005-11-30",
