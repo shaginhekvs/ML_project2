@@ -1,0 +1,5 @@
+Autoencoders: https://arxiv.org/pdf/1708.01715.pdf
+
+Knn based collab filtering : https://medium.com/@cfpinela/recommender-systems-user-based-and-item-based-collaborative-filtering-5d5f375a127f
+
+
