@@ -1,4 +1,4 @@
-# Copyright (c) 2017 NVIDIA Corporation
+
 import torch
 import argparse
 from reco_encoder.data import input_layer

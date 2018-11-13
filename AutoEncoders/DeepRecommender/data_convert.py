@@ -1,4 +1,3 @@
-# Copyright (c) 2017 NVIDIA Corporation
 from os import listdir, path, makedirs
 import random
 import sys
@@ -67,9 +66,8 @@ def create_data_timesplit(all_data,
         else:
           pass
 
-  # remove items not not seen in training set
-  #for userId, userRatings in test_data.items():
-  #  test_data[userId] = [rating for rating in userRatings if rating[0] in train_set_items]
+
+
   for userId, userRatings in validation_data.items():
     validation_data[userId] = [rating for rating in userRatings if rating[0] in train_set_items]
 
